@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE - JoebilWorld</title>
+    <style>
+        /* Global body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FF6F61, #FF8C00);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header styles */
+        header {
+            background: url("https://img.freepik.com/photos-premium/image-galaxie-coloree-dans-ciel-ai-generative_791316-9864.jpg") no-repeat center center;
+            background-size: cover;
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+            flex-shrink: 0;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 3px;
+            color: #FFEB3B; /* Bright Yellow */
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            color: #FFEB3B;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        header ul li {
+            margin: 0 15px;
+        }
+
+        header ul li a {
+            color: #FFEB3B;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 12px 30px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        header ul li a:hover {
+            background: #FF4081; /* Bright Pink */
+            transform: scale(1.1);
+        }
+
+        /* Main content styles */
+        main {
+            flex: 1;
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1000px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+            transition: opacity 0.5s ease;
+        }
+
+        main h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            color: #FFEB3B; /* Bright Yellow */
+        }
+
+        main p {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            color: #FFEB3B;
+        }
+
+        /* Buttons container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .button-container a {
+            padding: 15px 35px;
+            background-color: #FF4081; /* Bright Pink */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .button-container a:hover {
+            background-color: #FF6F61; /* Coral */
+            transform: scale(1.05);
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Footer styles */
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 1.1rem;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        footer a {
+            color: #FF4081;
+            text-decoration: none;
+            transition: text-decoration 0.3s ease;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            main h2 {
+                font-size: 2rem;
+            }
+
+            .button-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            footer {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Bienvenue dans le monde du code</h1>
+        <p>Apprenez, créez et explorez les bases du codage avec JoebilWorld</p>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <h2>Explorez les outils de programmation</h2>
+        <p>Sur cette page, découvrez les technologies comme Scratch et HTML. Chaque lien vous guidera vers des tutoriels interactifs pour apprendre à coder de manière ludique.</p>
+
+        <div class="button-container">
+            <a href="scratch.html">Découvrir Scratch</a>
+            <a href="html.html">Explorer l'HTML</a>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 JoebilWorld - <a href="contact.html">Contactez-nous</a></p>
+    </footer>
+
+</body>
+
+</html>
