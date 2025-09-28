@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGIE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #1A237E, #4A148C);
+            color: #FFF;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: url("https://img.freepik.com/photos-premium/image-galaxie-coloree-dans-ciel-ai-generative_791316-9864.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #FFD700;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .button-container a {
+            text-decoration: none;
+        }
+
+        .btn-magie {
+            background-color: #FFD700;
+            color: #1A237E;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            margin: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-magie:hover {
+            background-color: #4A148C;
+            color: #FFF;
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.6);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #FFF;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            .btn-magie {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <a href="home.html" class="btn btn-outline-light">Home</a>
+        <h1>MAGIE</h1>
+        <p>Bienvenue dans la partie MAGIE</p>
+    </header>
+
+    <!-- Buttons Section -->
+    <div class="button-container">
+        <a href="magie1.html">
+            <button class="btn-magie">Démonstration</button>
+        </a>
+        <a href="magie2.html">
+            <button class="btn-magie">Explication</button>
+        </a>
+        <a href="magie3.html">
+            <button class="btn-magie">Spectacle</button>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 JoebilWorld - <a href="contact.html">Contactez-nous</a></p>
+    </footer>
+</body>
+
+</html>
